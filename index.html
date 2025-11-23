@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio | Analista Programador </title>
+    <title>Portfolio | Analista Programador</title>
     <script src="https://kit.fontawesome.com/93d9b6c02e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-            <div class="logo">Rodrigo <span>Burgos</span></div>
+            <div class="logo"><a href="#">Rodrigo <span>Burgos</span></a></div>
             <ul class="nav-links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#Quienes-somos">Quienes somos</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="Sobre-mi.html">Sobre mí</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
@@ -24,13 +26,14 @@
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>Rodrigo Burgos</h1>
-                    <h2>Estudiante de nalista Programador</h2>
-                    <p>Explorando el mundo de la programación, creando soluciones y aprendiendo cada día para convertirme en un
-                    profesional de excelencia.</p>
+                    <h2>Estudiante de Analista Programador</h2>
+                    <p>Explorando el mundo de la programación, creando soluciones y aprendiendo cada día para
+                        convertirme en un profesional de excelencia.</p>
                     <div class="social-links">
-                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/roburgosdev" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/rodrigo-burgos-ruiz-b7766439a/" target="_blank"><i class="fab fa-linkedin"></i></a>
                     </div>
+                    <a href="Contacto.html" class="btn">Contáctame</a>
                 </div>
                 <div class="hero-image">
                     <img src="assets/images/Yo.jpg" alt="Imagen de Perfil">
@@ -41,61 +44,66 @@
         <section class="projects">
             <h2 class="section-title">Proyectos Personales</h2>
             <div class="projects-container">
+
                 <div class="project-card">
-                    <div-project-img>
-                        <img src="" alt="Proyecto 1">
-                    </div-project-img>
-                </div>
-                <div class="project-info">
-                    <h3>Nombre de Proyecto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum provident praesentium numquam sequi tempore, nulla atque ab excepturi nisi accusantium error, incidunt pariatur, perferendis veniam officia eum neque magni!</p>
-                    <div class="project-tech">
-                        <span>Lenguaje</span>
-                        <span>Lenguaje</span>
-                        <span>Lenguaje</span>
+                    <div class="project-img">
+                        <img src="assets/images/Tech_Gadget.png" alt="Proyecto 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tech Gadget</h3>
+                        <p>Una "Landing Page" moderna para un producto tecnológico ficticio. El enfoque está en el
+                            diseño limpio, la tipografía y la adaptación a móviles.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                        </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div-project-img>
-                        <img src="" alt="Proyecto 2">
-                    </div-project-img>
-                </div>
-                <div class="project-info">
-                    <h3>Nombre de Proyecto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum provident praesentium numquam sequi tempore, nulla atque ab excepturi nisi accusantium error, incidunt pariatur, perferendis veniam officia eum neque magni!</p>
-                    <div class="project-tech">
-                        <span>Lenguaje</span>
-                        <span>Lenguaje</span>
-                        <span>Lenguaje</span>
+                    <div class="project-img">
+                        <img src="assets/images/WeatherNow.png" alt="Proyecto 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>WeatherNow</h3>
+                        <p>App del clima que consulta una API externa. Muestra temperatura y condiciones actuales con
+                            manejo de errores.</p>
+                        <div class="project-tech">
+                            <span>HTML5 & CSS3</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
                     </div>
                 </div>
 
                 <div class="project-card">
-                    <div-project-img>
-                        <img src="" alt="Proyecto 3">
-                    </div-project-img>
-                </div>
-                <div class="project-info">
-                    <h3>Nombre de Proyecto</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ipsum provident praesentium numquam sequi tempore, nulla atque ab excepturi nisi accusantium error, incidunt pariatur, perferendis veniam officia eum neque magni!</p>
-                    <div class="project-tech">
-                        <span>Lenguaje</span>
-                        <span>Lenguaje</span>
-                        <span>Lenguaje</span>
+                    <div class="project-img">
+                        <img src="assets/images/Gastos_Personales.png" alt="Proyecto 3">
+                    </div>
+                    <div class="project-info">
+                        <h3>Rastreador de Gastos</h3>
+                        <p>Aplicación para registrar finanzas personales con gráficos interactivos y guardado de datos
+                            local.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>Chart.js</span>
+                            <span>LocalStorage</span>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
-    <footer class="footer-content">
-        <p>&copy; 2025 Rodrigo Burgos - Hecho con <i class="fas fa-heart"></i></p>
-        <div class="social-links">
-                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </div>
+     <footer class="simple-footer">
+        <p>&copy; 2025 Rodrigo Burgos. Hecho con <span style="color: #e25555;">&#10084;</span></p>
+        <div class="social-links" style="justify-content: center; margin-top: 10px;">
+            <a href="https://github.com/roburgosdev" target="_blank"><i class="fab fa-github" title="Ir a GitHub"></i></a>
+            <a href="https://www.linkedin.com/in/rodrigo-burgos-ruiz-b7766439a/" target="_blank"><i class="fab fa-linkedin" title="Ir a LinkedIn"></i></a>
+        </div>
     </footer>
-    
+
 </body>
+
 </html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Rodrigo Burgos</title>
+    <script src="https://kit.fontawesome.com/93d9b6c02e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo"><a href="#">Rodrigo <span>Burgos</span></a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Sobre-mi.html">Sobre mí</a></li>
+                <li><a href="Contacto.html" class="active">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> <main>
+        <section class="contact-section">
+            <div class="contact-container">
+                <h2 class="section-title">Contáctame</h2>
+                <p class="contact-description">
+                    ¿Tienes alguna propuesta o duda? Envíame un mensaje directo.
+                </p>
+
+                <form action="https://aterbonus.dev/api/toys/forms" method="POST" class="contact-form">
+
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required maxlength="200" placeholder="Tu nombre completo">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required maxlength="200" placeholder="ejemplo@correo.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Asunto</label>
+                        <input type="text" id="subject" name="subject" required maxlength="200" placeholder="Motivo del mensaje">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="content">Mensaje</label>
+                        <textarea id="content" name="content" required maxlength="1000" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+     <footer class="simple-footer">
+        <p>&copy; 2025 Rodrigo Burgos. Hecho con <span style="color: #e25555;">&#10084;</span></p>
+        <div class="social-links" style="justify-content: center; margin-top: 10px;">
+            <a href="https://github.com/roburgosdev" target="_blank"><i class="fab fa-github" title="Ir a GitHub"></i></a>
+            <a href="https://www.linkedin.com/in/rodrigo-burgos-ruiz-b7766439a/" target="_blank"><i class="fab fa-linkedin" title="Ir a LinkedIn"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
